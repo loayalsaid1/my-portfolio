@@ -95,6 +95,13 @@ export const portfolioData = {
       tech: "NextJS & TailwindCSS [V0], PostgreSQL [Supabase]",
       imageUrl: "https://i.postimg.cc/DfJphPLJ/Screenshot-11-5-2025-44142-nowtrack-vercel-app-Copy.jpg",
       link: "http://nowtrack.vercel.app"
+    },
+    {
+      title: "El-Fouad Schools Academic System",
+      description: "A comprehensive platform for managing student records and academic results across multiple school branches.",
+      tech: "NextJS & TailwindCSS, PostgreSQL [Supabase]",
+      imageUrl: "https://th.bing.com/th/id/OIP.xsc4FfhdSN3bWt10OWQDOgHaCO?rs=1&pid=ImgDetMain",
+      link: "https://github.com/loayalsaid1/elfouad-grades"
     }
   ],
   experience: [ 
@@ -194,6 +201,12 @@ export const portfolioData = {
     }
   ],
   education: [
+    {
+      title: "ALX AI Starter Kit Program",
+      institution: "ALX Africa",
+      link: "https://savanna.alxafrica.com/certificates/7Y2Pp39HRX",
+      linkText: "View Certificate"
+    },
     {
       title: "ALX Software Engineering Program",
       institution: "ALX Africa",
