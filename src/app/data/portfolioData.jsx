@@ -100,7 +100,7 @@ export const portfolioData = {
       title: "El-Fouad Schools Academic System",
       description: "A comprehensive platform for managing student records and academic results across multiple school branches.",
       tech: "NextJS & TailwindCSS, PostgreSQL [Supabase]",
-      imageUrl: "https://th.bing.com/th/id/OIP.xsc4FfhdSN3bWt10OWQDOgHaCO?rs=1&pid=ImgDetMain",
+      imageUrl: "https://i.postimg.cc/ZYNbXT4n/Screenshot-27-6-2025-62033.jpg",
       link: "https://github.com/loayalsaid1/elfouad-grades"
     }
   ],
