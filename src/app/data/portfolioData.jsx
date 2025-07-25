@@ -109,7 +109,7 @@ export const portfolioData = {
       title: "El-Fouad Academic Management System – Full-Stack SE",
       subtitle: "El-Fouad International Schools | 6/2025",
       points: [
-        "Architected a comprehensive multi-school academic management platform using Next.js, TypeScript, and Supabase, serving 1,200+ concurrent users across multiple branches with 40,000+ daily backend calls and lightning-fast performance.",
+        "Architected a comprehensive multi-school academic management platform using Next.js, TypeScript, and Supabase, serving 1,200+ concurrent users across multiple branches  with peak loads of 40,000+ daily backend calls and lightning-fast performance.",
         "Engineered sophisticated multi-level authorization with role-based access control (super admin, school admin), enabling secure multi-school management, administrative dashboards, audit trails, and data reconciliation tools.",
         "Implemented robust security through PL/pgSQL triggers & RPC functions, CSV upload/validation, and parent-custody passwords, delivering responsive UI with Arabic-enabled PDF reports while leveraging GenAI to accelerate development and maintain code quality.",
       ]
