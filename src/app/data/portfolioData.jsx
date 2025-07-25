@@ -106,7 +106,7 @@ export const portfolioData = {
   ],
   experience: [ 
     {
-      title: "El-Fouad Academic Management System",
+      title: "El-Fouad Academic Management System – Full-Stack SE",
       subtitle: "El-Fouad International Schools | 6/2025",
       points: [
         "Architected a comprehensive multi-school academic management platform using Next.js, TypeScript, and Supabase, serving 1,200+ concurrent users across multiple branches with 40,000+ daily backend calls and lightning-fast performance.",
@@ -115,7 +115,7 @@ export const portfolioData = {
       ]
     },
     {
-      title: "Now-Track",
+      title: "Now-Track – Full-Stack Dev",
       subtitle: "personal project / ALX AI Starter Kit project | 4/2025",
       points: [
         "Built a time and productivity tracking application using Next.js, TypeScript, and Supabase, creating a practical tool for personal workflow management.",
@@ -124,7 +124,7 @@ export const portfolioData = {
       ]
     },
     {
-      title: "ProLearningHub",
+      title: "ProLearningHub – Full-Stack SE",
       subtitle: "Final webstack project at ALX SE | Sep 2024 - Present",
       points: [
         "Built and designed a scalable e-learning platform helping with digitalizing Education with React, Redux, and Socket.IO, ensuring real-time updates and efficient state management.",
@@ -135,7 +135,7 @@ export const portfolioData = {
       ]
     },
     {
-      title: "Elzero System - Management Dashboard",
+      title: "Elzero System (Management Dashboard) – Front-End Dev",
       subtitle: "Personal Project | Feb 2025",
       points: [
         "Built a fully responsive, multi-page management system with a dedicated dashboard featuring various widgets and other pages for profile, settings, courses, profiles, friends, files, and more.",
@@ -144,7 +144,7 @@ export const portfolioData = {
       ]
     },
     {
-      title: "Elzero World Landing page",
+      title: "Elzero World Landing page – Front-End Dev",
       subtitle: "Personal Project | Jan 2025",
       points: [
         "Developed a fully responsive, 14-section landing page, built with modern, high-quality CSS for a professional design.",
@@ -152,7 +152,7 @@ export const portfolioData = {
       ]
     },
     {
-      title: "RemindMe",
+      title: "RemindMe – Full-Stack Developer",
       subtitle: "Final ALX SE foundations/Personal project | May 2024 - Jun 2024",
       points: [
         "Designed and built the architecture for a social Media-like app that enables users to store reminders of their whys, goals, and favorite quotes, while engaging with others' public reminders.",
@@ -161,7 +161,7 @@ export const portfolioData = {
       ]
     },
     {
-      title: "AirBnB Clone",
+      title: "AirBnB Clone – Back-End Dev",
       subtitle: "ALX SE project, Remote | Feb 2024 - Apr 2024",
       points: [
         "Applying Test-Driven development principles, Collaborated across five development stages to build a robust backend, including a console, file-storage engine, DB engine, ORM setup, REST API, and Flask application server.",
@@ -170,7 +170,7 @@ export const portfolioData = {
       ]
     },
     {
-      title: "C Interpreter for Monty Bytecode",
+      title: "C Interpreter for Monty Bytecode – C Developer",
       subtitle: "ALX SE Project | Nov 2023",
       points: [
         "Built an interpreter for Monty Bytecode, a stack-based scripting language, as part of a great collaborative group project.",
@@ -179,7 +179,7 @@ export const portfolioData = {
       ]
     },
     {
-      title: "Simple-Shell",
+      title: "Simple-Shell – C Developer",
       subtitle: "ALX SE Project | Apr 2023",
       points: [
         "Contributed to building a custom UNIX command-line interpreter in C, implementing command execution, argument handling, and user input processing using execve and system calls.",
