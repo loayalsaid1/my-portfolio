@@ -26,13 +26,13 @@ export const portfolioData = {
     {
       category: "Front-End",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><path d="M12 11.55C12 10.63 12.29 10.03 12.81 9.73C13.33 9.42 14.24 9.26 15.5 9.26C17.22 9.26 18.5 9.86 18.5 11.55C18.5 12.91 17.59 13.5 16.25 13.5C15.13 13.5 14.4 13.13 14.08 12.81C13.76 12.5 13.6 12.17 13.6 11.55H12Z"/><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"/><path d="M7 7h.01"/></svg>,
-      items: ["NextJS", "React", "Redux", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "jQuery", "Ajax", "Webpack", "Vite"],
+      items: ["NextJS", "React", "Redux", "TailwindCSS", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "jQuery", "Ajax", "Webpack", "Vite", "ShadCN"],
       color: "bg-gradient-to-br-sky-600"
     },
     {
       category: "Back-End",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="2" y1="12" x2="22" y2="12"/></svg>,
-      items: ["Node.js", "Express.js", "Python", "Flask", "RESTful APIs", "WebSockets", "SQLAlchemy ORM", "Supabase"],
+      items: ["Node.js", "Express.js", "Python", "Flask", "RESTful APIs", "WebSockets", "SQLAlchemy ORM", "Supabase", "OAuth", "Event Driven Architecture", "AWS Serverless Services (i.e SNS, SQS, DynamoDB, API Gateway, etc)" ],
       color: "bg-gradient-to-br-emerald-600"
     },
     {
@@ -44,13 +44,13 @@ export const portfolioData = {
     {
       category: "Databases",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>,
-      items: ["MySQL", "PostgreSQL", "SQL", "Database Replication", "Data Synchronization"],
+      items: ["MySQL", "PostgreSQL", "SQL", "Database Replication", "Data Synchronization", "NoSQL", "DynamoDB"],
       color: "bg-gradient-to-br-amber-600"
     },
     {
       category: "Programming & Tools",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>,
-      items: ["C Programming", "Linux System Calls", "Shell Scripting", "Git & GitHub", "TDD", "DSA", "GenAI"],
+      items: ["C Programming", "Linux System Calls", "Shell Scripting", "Git & GitHub", "TDD", "DSA", "GenAI", "Github Copilot"],
       color: "bg-gradient-to-br-rose-600"
     },
     {
@@ -102,9 +102,26 @@ export const portfolioData = {
       tech: "NextJS & TailwindCSS, PostgreSQL [Supabase]",
       imageUrl: "https://i.postimg.cc/ZYNbXT4n/Screenshot-27-6-2025-62033.jpg",
       link: "https://github.com/loayalsaid1/elfouad-grades"
+    },
+    {
+      title: "The Youtube Downloader",
+      description: "Serverless Event-Driven YT downloader. Parallel download vidoes in (mp4, mp3, txt and srt) with an intuitive and attractive UI",
+      tech: "Next.js, TypeScript, Tailwind CSS (ChadCN), WebSockets, AWS Serverless tools (i.e Lambda, SNS, SQS, S3, DynamoDB)",
+      imageUrl: "https://i.postimg.cc/WtRgMXkr/localhost-3000-index-html.png",
+      link: "theytdownloader.loay.me"
     }
   ],
   experience: [ 
+    {
+      title: "The Youtube Downloader – Full-Stack SE",
+      subtitle: "Personal Project | 10/2025",
+      points: [
+        "Designed and implemented a serverless Event-Driven, real-time YouTube Downloader with an intuitive Next.js frontend, using TypeScript, Tailwind CSS, and ChadCN for a modern UX.",
+        "Built real-time communication using WebSockets, ensuring seamless status updates and progress tracking for active downloads.",
+        "Architected a serverless backend with AWS Lambda layers (yt-dlp, ffmpeg, ffprobe), SNS for fan-out notifications, SQS for queuing, S3 for storage, and DynamoDB for managing jobs and WebSocket connections.",
+        "Optimized the system for scalability, handling large payloads and concurrent jobs effectively through AWS services."
+      ]
+    },
     {
       title: "El-Fouad Academic Management System – Full-Stack SE",
       subtitle: "El-Fouad International Schools | 6/2025",
