@@ -3,7 +3,7 @@ export const portfolioData = {
   hero: {
     name: "Loay Al-Said",
     title: "Full-Stack Software Engineer specializing in React-based Front-End",
-    subtitle: "Creator of ProLearningHub, RemindMe, and a few others—pursuing a bit of impact along the way. I'm Muslim, an ALX SE alum, a blockchain learner, and a car enthusiast. More about me just below...   🙂",
+    subtitle: "Creator of ProLearningHub, RemindMe, NowTrack, and a few others—pursuing a bit of impact along the way. I'm a Muslim, an ALX SE alum, a genuine tech lover, and a car enthusiast. More about me just below...   🙂",
     backgroundImage: "https://placehold.co/1920x1080/1E293B/334155?text=DoHardThings"
   },
   about: {
@@ -26,13 +26,13 @@ export const portfolioData = {
     {
       category: "Front-End",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><path d="M12 11.55C12 10.63 12.29 10.03 12.81 9.73C13.33 9.42 14.24 9.26 15.5 9.26C17.22 9.26 18.5 9.86 18.5 11.55C18.5 12.91 17.59 13.5 16.25 13.5C15.13 13.5 14.4 13.13 14.08 12.81C13.76 12.5 13.6 12.17 13.6 11.55H12Z"/><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"/><path d="M7 7h.01"/></svg>,
-      items: ["NextJS", "React", "Redux", "TailwindCSS", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "jQuery", "Ajax", "Webpack", "Vite", "ShadCN"],
+      items: ["NextJS", "React", "Redux", "TailwindCSS", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "jQuery", "Ajax", "Webpack", "Vite", "ShadCN", "SEO"],
       color: "bg-gradient-to-br-sky-600"
     },
     {
       category: "Back-End",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="2" y1="12" x2="22" y2="12"/></svg>,
-      items: ["Node.js", "Express.js", "Python", "Flask", "RESTful APIs", "WebSockets", "SQLAlchemy ORM", "Supabase", "OAuth", "Event Driven Architecture", "AWS Serverless Services (i.e SNS, SQS, DynamoDB, API Gateway, etc)" ],
+      items: ["Node.js", "NestJS", "Express.js", "Python", "Flask", "RESTful APIs", "WebSockets", "Prisma", "Drizzle", "SQLAlchemy ORM", "Supabase", "OAuth", "Microservices", "Event Driven Architecture", "AWS Serverless Services" ],
       color: "bg-gradient-to-br-emerald-600"
     },
     {
@@ -114,12 +114,31 @@ export const portfolioData = {
   experience: [ 
     {
       title: "The Youtube Downloader – Full-Stack SE",
-      subtitle: "Personal Project | 10/2025",
+      subtitle: "Personal Project | 09/2025",
       points: [
         "Designed and implemented a serverless Event-Driven, real-time YouTube Downloader with an intuitive Next.js frontend, using TypeScript, Tailwind CSS, and ChadCN for a modern UX.",
         "Built real-time communication using WebSockets, ensuring seamless status updates and progress tracking for active downloads.",
         "Architected a serverless backend with AWS Lambda layers (yt-dlp, ffmpeg, ffprobe), SNS for fan-out notifications, SQS for queuing, S3 for storage, and DynamoDB for managing jobs and WebSocket connections.",
         "Optimized the system for scalability, handling large payloads and concurrent jobs effectively through AWS services."
+      ]
+    },
+    {
+      title: "YouTube Downloader API – Backend SE",
+      subtitle: "Personal Project | 08/2025",
+      points: [
+        "Architected and deployed a highly concurrent API for YouTube video and audio (MP4/MP3) downloads, solving complex streaming and resilience challenges under load.",
+        "Engineered a custom, high-performance streaming architecture using Node.js Streams and a passthrough mechanism to simultaneously pipe media to client and cache, reducing latency and enabling zero-wait responses.",
+        "Implemented concurrency controls using an in_progress map and rate-limiting queues to manage simultaneous requests, prevent redundant processing, and optimize bandwidth across many users.",
+        "Designed multi-step resilience logic with auto-retry and FFmpeg-based fallback audio extraction to handle dynamic upstream changes and ensure media reliability."
+      ]
+    },
+    {
+      title: "Dr.Amr Adly Website – Front-End SE",
+      subtitle: "Freelance Project | 07/2025",
+      points: [
+        "Built a professional medical website with Next.js, TypeScript, and Tailwind CSS focusing on performance and accessibility (SSR/SSG, Core Web Vitals, semantic HTML, ARIA).",
+        "Implemented technical SEO and optimized keyboard navigation and ARIA attributes for improved accessibility.",
+        "Integrated an AI assistant to handle patient FAQs and guide users toward services and bookings."
       ]
     },
     {
@@ -274,7 +293,7 @@ export const portfolioData = {
   contact: {
     email: "mail@loay.me",
     intro: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of something impactful. Feel free to reach out!",
-    cvLink: "https://docs.google.com/document/d/1S9Qbds_btxTHo_6bLHATxFOlLQ79bSPDe-FBq-zpRG4/edit?usp=sharing",
+    cvLink: "https://docs.google.com/document/d/1NrVXKKX0j2p0sspI8s16xVdXALfYiKWJfAGD65lGVwU/edit?usp=sharing",
     socialLinks: [
       { name: "GitHub", url: "https://github.com/loayalsaid1", icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> },
       { name: "LinkedIn", url: "https://linkedin.com/in/loay-alsaid", icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg> },
