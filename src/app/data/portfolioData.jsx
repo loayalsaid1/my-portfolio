@@ -2,8 +2,8 @@ export const portfolioData = {
   profileImage: "https://i.postimg.cc/QCWP2jSP/profile.jpg",
   hero: {
     name: "Loay Al-Said",
-    title: "Full-Stack Software Engineer specializing in React-based Front-End",
-    subtitle: "Creator of ProLearningHub, RemindMe, NowTrack, and a few others—pursuing a bit of impact along the way. I'm a Muslim, an ALX SE alum, a genuine tech lover, and a car enthusiast. More about me just below...   🙂",
+    title: "Full-Stack Software Engineer",
+    subtitle: "Creator of Axonelix, ProLearningHub, RemindMe, NowTrack, and a few others—pursuing a bit of impact along the way. I'm a Muslim, an ALX SE alum, a genuine tech lover, and a car enthusiast. More about me just below...   🙂",
     backgroundImage: "https://placehold.co/1920x1080/1E293B/334155?text=DoHardThings"
   },
   about: {
@@ -111,7 +111,18 @@ export const portfolioData = {
       link: "theytdownloader.loay.me"
     }
   ],
-  experience: [ 
+  experience: [
+    {
+      title: "Axonelix Medical hub – Full-Stack SE",
+      subtitle: "Freelance/Personal Project | 2/2026 - Present",
+      points: [
+        "Supporting 300+ doctors and medical students in one-university pilot now, Axonelix Basically brings together curriculum hierarchy (Tailored to Egypt universities), question banks & generated quizzes, and progress tracking & analytics into one focused platform with all the other complementary tools for your learning as a medical student. All with a very affordable price compared to global platforms.",
+        "Built a comprehensive curriculum-based medical learning platform (Next.js + NestJS + PostgreSQL/Drizzle) for Egyptian medical students with comprehensive, unique experience with prioritized optimization for scale at each level as feasible.",
+        "Delivered QBank, old exams, quiz generation, session tracking, and progress history, plus an admin dashboard for full content and user operations.",
+        "Supporting 300+ doctors and medical students in one-university pilot, with curriculum-tailored content; now focused on analytics and intelligent caching.",
+        "Optimized as possible the code and the architecture to reduce the costs and provide the most smooth experience for students"
+      ]
+    },
     {
       title: "The Youtube Downloader – Full-Stack SE",
       subtitle: "Personal Project | 09/2025",
