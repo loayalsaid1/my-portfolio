@@ -61,6 +61,13 @@ export const portfolioData = {
     }
   ],
   featuredProjects: [ 
+     {
+      title: "Axonelix Medical-Hub",
+      description: "Competing with global platforms for Med Students. Tailored for Egyption doctors with all they need. Smooth and helping experience. Very affordable price",
+      tech: "NestJS, PostgreSQL, Drizzle, Clerk, NextJS, Typescript,.... Still growing",
+      imageUrl: "https://i.postimg.cc/76sKLgRG/image.png",
+      link: "https://axonelix-medicalhub.online"
+    },
     {
       title: "ProLearningHub",
       description: "E-learning portal builder with a Harvard-inspired learning experience. Built for educators to provide everything students need — in one place.",
