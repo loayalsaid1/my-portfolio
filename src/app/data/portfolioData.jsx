@@ -15,36 +15,37 @@ export const portfolioData = {
       title: "What makes me tick?",
       points: [
         "I’m sincerely passionate about SWE. The joy of bringing a feature to life in something impactful is indescribable.",
+        "I like owning a project from the first idea to the last deploy: shaping the architecture, keeping the code clean, making it fast, and making sure it still holds up when it grows. I’m not happy until I’d trust it myself.",
         "I have good experience collaborating in an agile-like format with diverse teams.",
         "Even the joy of tackling hard things, seeing learning become working code – whether it’s solving a LeetCode problem, building a custom Unix shell, or deeply understanding how the internet works – is incredibly fulfilling.",
-        "The joy I got from building ProLearningHub, RemindMe, ReactHooksSimplified, and The-Fog-Is-Lifting is unreal. Seeing a chance to make an impact come alive is something I can’t stop talking about."
+        "The joy I got from building Axonelix-Medicalhub, ProLearningHub, RemindMe, ReactHooksSimplified, and The-Fog-Is-Lifting is unreal. Seeing a chance to make an impact come alive is something I can’t stop talking about."
       ]
     },
     conclusion: "I also believe in continuous learning; I even studied \"how to learn\" through McMaster University. After nearly two years of daily reading, practicing, solving tasks, and overcoming challenges as an ALX SE alum, I'm proud of the journey and eager for what's next!"
   },
   skills: [ 
     {
-      category: "Front-End",
-      icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><path d="M12 11.55C12 10.63 12.29 10.03 12.81 9.73C13.33 9.42 14.24 9.26 15.5 9.26C17.22 9.26 18.5 9.86 18.5 11.55C18.5 12.91 17.59 13.5 16.25 13.5C15.13 13.5 14.4 13.13 14.08 12.81C13.76 12.5 13.6 12.17 13.6 11.55H12Z"/><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"/><path d="M7 7h.01"/></svg>,
-      items: ["NextJS", "React", "Redux", "TailwindCSS", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "jQuery", "Ajax", "Webpack", "Vite", "ShadCN", "SEO"],
-      color: "bg-gradient-to-br-sky-600"
-    },
-    {
       category: "Back-End",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="2" y1="12" x2="22" y2="12"/></svg>,
-      items: ["Node.js", "NestJS", "Express.js", "Python", "Flask", "RESTful APIs", "WebSockets", "Prisma", "Drizzle", "SQLAlchemy ORM", "Supabase", "OAuth", "Microservices", "Event Driven Architecture", "AWS Serverless Services" ],
+      items: ["Node.js", "NestJS", "Express", "Python", "Flask", "REST APIs", "WebSockets", "BullMQ", "Zod", "Drizzle", "Prisma", "SQLAlchemy", "Supabase", "OAuth", "Microservices", "Event-Driven Architecture", "AWS Serverless"],
       color: "bg-gradient-to-br-emerald-600"
+    },
+    {
+      category: "Front-End",
+      icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><path d="M12 11.55C12 10.63 12.29 10.03 12.81 9.73C13.33 9.42 14.24 9.26 15.5 9.26C17.22 9.26 18.5 9.86 18.5 11.55C18.5 12.91 17.59 13.5 16.25 13.5C15.13 13.5 14.4 13.13 14.08 12.81C13.76 12.5 13.6 12.17 13.6 11.55H12Z"/><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"/><path d="M7 7h.01"/></svg>,
+      items: ["Next.js", "React", "Redux", "TypeScript", "Tailwind CSS", "TanStack Query", "React Hook Form", "Shadcn", "SEO", "HTML5", "CSS3", "Vite", "Webpack", "jQuery", "Ajax"],
+      color: "bg-gradient-to-br-sky-600"
     },
     {
       category: "DevOps & Deployment",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><path d="M21.5 12c0-5.25-4.25-9.5-9.5-9.5S2.5 6.75 2.5 12s4.25 9.5 9.5 9.5c.99 0 1.94-.16 2.82-.45"/><path d="m12 18-3.5-3.5C10.66 12.4 12.79 12 15 12v0c2.21 0 4.34.4 6.5 2.5L18 18"/><path d="M12 12v6"/><path d="m15 9-3-3-3 3"/></svg>,
-      items: ["CI/CD", "Nginx", "Load Balancing", "Reverse Proxy", "Docker", "Web-stack Monitoring", "Scalable Architecture"],
+      items: ["Docker", "Nginx", "Load Balancing", "Reverse Proxy", "CI/CD", "GitHub Actions", "Server Deployment", "Prometheus", "Grafana", "Sentry"],
       color: "bg-gradient-to-br-indigo-600"
     },
     {
       category: "Databases",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>,
-      items: ["MySQL", "PostgreSQL", "SQL", "Database Replication", "Data Synchronization", "NoSQL", "DynamoDB"],
+      items: ["PostgreSQL", "MySQL", "Redis", "DynamoDB", "NoSQL", "Replication", "Indexing & Querying"],
       color: "bg-gradient-to-br-amber-600"
     },
     {
@@ -53,10 +54,22 @@ export const portfolioData = {
       items: ["C Programming", "Linux System Calls", "Shell Scripting", "Git & GitHub", "TDD", "DSA", "GenAI", "Github Copilot"],
       color: "bg-gradient-to-br-rose-600"
     },
+    // {
+    //   category: "DSA",
+    //   icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><circle cx="6" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="12" r="2"/><line x1="8" y1="6" x2="16" y2="11"/><line x1="8" y1="18" x2="16" y2="13"/></svg>,
+    //   items: ["Problem-Solving", "Linked Lists", "Stacks & Queues", "Hash Tables", "Trees & Graphs", "Sorting & Searching"],
+    //   color: "bg-gradient-to-br-violet-600"
+    // },
+    // {
+    //   category: "Tools & Practices",
+    //   icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>,
+    //   items: ["Test-Driven Development", "Git & GitHub", "GitHub Copilot", "GenAI"],
+    //   color: "bg-gradient-to-br-orange-600"
+    // },
     {
       category: "Soft Skills",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skills-genre-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>,
-      items: ["Pair Programming", "Team Collaboration", "Problem-Solving", "Agile-Like Environments", "Communication", "Growth Mindset", "Project Management"],
+      items: ["Pair Programming", "Team Collaboration", "Leadership", "Conflict Resolution", "Communication", "Problem-Solving", "Agile Collaboration", "Growth Mindset"],
       color: "bg-gradient-to-br-teal-600"
     }
   ],
@@ -65,7 +78,7 @@ export const portfolioData = {
       title: "Axonelix Medical-Hub",
       description: "Competing with global platforms for Med Students. Tailored for Egyption doctors with all they need. Smooth and helping experience. Very affordable price",
       tech: "NestJS, PostgreSQL, Drizzle, Clerk, NextJS, Typescript,.... Still growing",
-      imageUrl: "https://i.postimg.cc/76sKLgRG/image.png",
+      imageUrl: "https://i.postimg.cc/sDw5CVtx/image.png",
       link: "https://axonelix-medicalhub.online"
     },
     {
@@ -120,8 +133,29 @@ export const portfolioData = {
   ],
   experience: [
     {
-      title: "Axonelix Medical hub – Full-Stack SE",
-      subtitle: "Freelance/Personal Project | 2/2026 - Present",
+      title: "Cart-Bundles (Salla App) – Full-Stack SE",
+      subtitle: "Uteer — Contract | 9/2026",
+      points: [
+        "Architected and built a multi-tenant upsell and cross-sell app on Salla, a major e-commerce platform in the GCC. Stack: NestJS, BullMQ, Redis, PostgreSQL, TypeScript, Next.js, Zod, and TanStack Query, with embedded-iframe authentication inside the Salla admin.",
+        "Moved high-throughput analytics writes off the database hot path with a lightweight event-driven pipeline: storefront events are buffered and aggregated in Redis, then flushed to PostgreSQL in batches, so traffic volume no longer drives database load.",
+        "Solved order attribution by matching Salla order webhooks to the offers that influenced them, with a low error margin.",
+        "Received direct management recognition for end-to-end product ownership, from the initial plan through a successful store QA review.",
+        "Set up observability with Prometheus, Grafana, and Sentry.",
+        "In progress: a centralized SSO across Uteer’s app suite, using asymmetric JWTs and JWKS key rotation on a shared domain, with a secure ticket handoff from Salla’s embedded iframe into a unified multi-app dashboard that can later collect data from the apps."
+      ]
+    },
+    {
+      title: "Auditelligence Marketing Website – Front-End SE",
+      subtitle: "Freelance Project | 6/2026 - 7/2026",
+      points: [
+        "Built a 13-section marketing site for a B2B SaaS audit platform using Next.js, TypeScript, Tailwind CSS, and Framer Motion.",
+        "Engineered animated components including scroll-driven section stacking, canvas particle effects, and interactive feature cards with modal deep-dives.",
+        "Improved discoverability and inclusivity with JSON-LD and Open Graph for SEO, plus semantic HTML, ARIA, keyboard navigation, and Radix UI focus trapping."
+      ]
+    },
+    {
+      title: "Axonelix Medical-Hub – Full-Stack SE",
+      subtitle: "Personal product / Freelance | 2/2026 - 4/2026",
       points: [
         "Supporting 300+ doctors and medical students in one-university pilot now, Axonelix Basically brings together curriculum hierarchy (Tailored to Egypt universities), question banks & generated quizzes, and progress tracking & analytics into one focused platform with all the other complementary tools for your learning as a medical student. All with a very affordable price compared to global platforms.",
         "Built a comprehensive curriculum-based medical learning platform (Next.js + NestJS + PostgreSQL/Drizzle) for Egyptian medical students with comprehensive, unique experience with prioritized optimization for scale at each level as feasible.",
@@ -132,7 +166,7 @@ export const portfolioData = {
     },
     {
       title: "The Youtube Downloader – Full-Stack SE",
-      subtitle: "Personal Project | 09/2025",
+      subtitle: "Personal Project | 9/2025",
       points: [
         "Designed and implemented a serverless Event-Driven, real-time YouTube Downloader with an intuitive Next.js frontend, using TypeScript, Tailwind CSS, and ChadCN for a modern UX.",
         "Built real-time communication using WebSockets, ensuring seamless status updates and progress tracking for active downloads.",
@@ -309,9 +343,9 @@ export const portfolioData = {
     }
   ],
   contact: {
-    email: "mail@loay.me",
+    email: "loayalsaid555@gmail.com",
     intro: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of something impactful. Feel free to reach out!",
-    cvLink: "https://docs.google.com/document/d/1NrVXKKX0j2p0sspI8s16xVdXALfYiKWJfAGD65lGVwU/edit?usp=sharing",
+    cvLink: "https://docs.google.com/document/d/1hY0msLinccIVjYGmrTQvhGwj4G1LAgOf2i4ie3QPis0/edit?usp=sharing",
     socialLinks: [
       { name: "GitHub", url: "https://github.com/loayalsaid1", icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> },
       { name: "LinkedIn", url: "https://linkedin.com/in/loay-alsaid", icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg> },
