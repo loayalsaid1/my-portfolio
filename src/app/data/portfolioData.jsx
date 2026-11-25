@@ -121,14 +121,14 @@ export const portfolioData = {
       description: "A comprehensive platform for managing student records and academic results across multiple school branches.",
       tech: "NextJS & TailwindCSS, PostgreSQL [Supabase]",
       imageUrl: "https://i.postimg.cc/ZYNbXT4n/Screenshot-27-6-2025-62033.jpg",
-      link: "https://github.com/loayalsaid1/elfouad-grades"
+      link: "https://elfouadgradesportal.vercel.app"
     },
     {
       title: "The Youtube Downloader",
       description: "Serverless Event-Driven YT downloader. Parallel download vidoes in (mp4, mp3, txt and srt) with an intuitive and attractive UI",
       tech: "Next.js, TypeScript, Tailwind CSS (ChadCN), WebSockets, AWS Serverless tools (i.e Lambda, SNS, SQS, S3, DynamoDB)",
       imageUrl: "https://i.postimg.cc/WtRgMXkr/localhost-3000-index-html.png",
-      link: "theytdownloader.loay.me"
+      link: "https://nice-yt-downloader.vercel.app/"
     }
   ],
   experience: [
