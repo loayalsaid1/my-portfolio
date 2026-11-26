@@ -79,7 +79,7 @@ export const portfolioData = {
       description: "Competing with global platforms for Med Students. Tailored for Egyption doctors with all they need. Smooth and helping experience. Very affordable price",
       tech: "NestJS, PostgreSQL, Drizzle, Clerk, NextJS, Typescript,.... Still growing",
       imageUrl: "https://i.postimg.cc/sDw5CVtx/image.png",
-      link: "https://axonelix-medicalhub.online"
+      link: "https://axonelix.vercel.app"
     },
     {
       title: "ProLearningHub",
