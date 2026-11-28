@@ -82,6 +82,13 @@ export const portfolioData = {
       link: "https://axonelix.vercel.app"
     },
     {
+      title: "Mosta2baly ('My Future')",
+      description: "Hands-on professional training platform combining live interactive bootcamps, structured milestone evaluations, and verified proof-of-work portfolios.",
+      tech: "{Only Contributed to few core features & few bug fixes. Invistigated 2 down times}. NextJS & Supabase mainly",
+      imageUrl: "https://i.postimg.cc/Z5yK5YQD/mosta2baly-hero-screenshot.png",
+      link: "https://mosta2baly.com"
+    },
+    {
       title: "ProLearningHub",
       description: "E-learning portal builder with a Harvard-inspired learning experience. Built for educators to provide everything students need — in one place.",
       tech: "React, Redux, WebSockets, Node.js, Express, MySQL, OAuth2",
