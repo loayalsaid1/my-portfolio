@@ -170,7 +170,7 @@ const About = ({ data }) => (
         <ul className="list-disc list-inside space-y-3 pl-4">
           {data.whatMakesMeTick.points.map((point, i) => <li key={i}>{point}</li>)}
         </ul>
-        <p>{data.conclusion}</p>
+        {data.conclusion.map((p, i) => <p key={i}>{p}</p>)}
       </div>
     </div>
   </section>

@@ -8,20 +8,21 @@ export const portfolioData = {
   },
   about: {
     paragraphs: [
-      "I'm an Egyptian software engineer, and without buzzwords, my ultimate goal is to build purposeful apps and bring ideas to life. That’s why I suspended my bachelor's studies, dedicating myself fully to Software Engineering. Collaborating in an Agile-like format has been my approach since starting with ALX in early 2023.",
-      "For me, spending hours debugging MySQL server on someone's machine isn't wasted time. A small push or a few words can shape someone’s future impact, and being part of that is its own reward."
+      "I bridge the gap between business goals and technical execution; designing performant, scalable software from the ground up. My focus is mostly balancing future readiness with real-world performance and cost-efficiency, without over-engineering or adding unneeded complexity.",
+      "And honestly, I just love planning this. So much.",
+      "I'm an Egyptian software engineer, and without buzzwords, my goal has always been simple: build purposeful products and bring ideas to life. That conviction is why I suspended my bachelor's studies to dedicate myself fully to Software Engineering, starting with ALX in early 2023 and growing through real production systems ever since."
     ],
     whatMakesMeTick: {
       title: "What makes me tick?",
       points: [
-        "I’m sincerely passionate about SWE. The joy of bringing a feature to life in something impactful is indescribable.",
-        "I like owning a project from the first idea to the last deploy: shaping the architecture, keeping the code clean, making it fast, and making sure it still holds up when it grows. I’m not happy until I’d trust it myself.",
-        "I have good experience collaborating in an agile-like format with diverse teams.",
-        "Even the joy of tackling hard things, seeing learning become working code – whether it’s solving a LeetCode problem, building a custom Unix shell, or deeply understanding how the internet works – is incredibly fulfilling.",
-        "The joy I got from building Axonelix-Medicalhub, ProLearningHub, RemindMe, ReactHooksSimplified, and The-Fog-Is-Lifting is unreal. Seeing a chance to make an impact come alive is something I can’t stop talking about."
+        "I like owning a project from the first architectural sketch to the final deployment: shaping the system design, keeping the codebase clean, making it fast under load, and making sure it still holds up when it grows. I’m not satisfied until it’s something I’d trust myself."
       ]
     },
-    conclusion: "I also believe in continuous learning; I even studied \"how to learn\" through McMaster University. After nearly two years of daily reading, practicing, solving tasks, and overcoming challenges as an ALX SE alum, I'm proud of the journey and eager for what's next!"
+    conclusion: [
+      "Over the past couple of years, that mindset has taken me from low-level C shells and early full-stack apps to architecting multi-tenant e-commerce apps on Salla, high-throughput Redis/PostgreSQL analytics pipelines, and platforms serving hundreds to thousands of active users.",
+      "Beyond the code, I care deeply about the people around it. Whether collaborating in agile, cross-cultural teams or spending hours helping someone debug a broken environment on their machine, a small push can shape someone’s future impact ... and being part of that ...  is its own reward.",
+      "I’m a firm believer in continuous learning (I even took McMaster University's \"Learning How to Learn\" just to get better at mastering hard things about 6 years ago). Always open to building impactful products, talking system architecture, or collaborating on meaningful engineering challenges."
+    ]
   },
   skills: [ 
     {
